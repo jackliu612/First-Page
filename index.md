@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+	<script src="scripts/sketch.js"></script>
+    <script src="scripts/loader.js"></script>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="canvas"></div>
+	<div id="button">
+	    <p id = 'score'>Score: 0</p>
+		<button class="button" style="vertical-align:middle" onclick="reset()" ><span>Reset </span></button>
+	</div>
+</body>
+</html>
